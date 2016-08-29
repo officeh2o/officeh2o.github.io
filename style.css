@@ -1,0 +1,279 @@
+body {
+	background-image: url(wood.jpg);
+	background-attachment: fixed;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+html {
+  font-size: 14px;
+}
+
+#footer {
+	font-size: 10px;
+	padding: 5px;
+	background-color: white;
+}
+
+#logo {
+	height: 60px;
+	margin: 15px;
+}
+
+.active {
+	color: rgb(151, 192, 60);
+}
+
+#navitem {
+	font-size: 25px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	color: rgb(86, 202, 239);
+	border-radius: 15px;
+	text-align: middle;
+}
+
+#navitem:hover {
+	box-shadow: 1px 1px 4px gray;
+	background-color: white;
+}
+@media screen and (min-width: 1000px) {
+	ul.nav li.dropdown:hover ul.dropdown-menu {
+    	display: block;
+	}
+}
+
+#subnavitem {
+	color: rgb(151, 192, 60);
+}
+
+.icon-bar {
+	background-color: rgb(86, 202, 239);
+}
+
+.navbar {
+	background-color: white;
+	border-bottom: solid 4px rgb(86, 202, 239);
+}
+
+#navbtn {
+	height: 70px;
+	margin-right: 23px;
+}
+
+#videosub {
+	background-color: white;
+	border-top: solid 4px rgb(86, 202, 239);
+}
+
+.carousel-inner > #indexitem > img {
+    margin: 0 auto;
+    border-radius: 15px;
+    border: solid 4px rgb(86, 202, 239);
+}
+
+.carousel-inner > .items > img {
+    margin: 0 auto;
+}
+
+#my-carousel {
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+#video {
+	margin: 25px 20px;
+	border: 2px solid rgb(151, 192, 60);
+	width: 70% !important;
+	height: auto !important;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    vertical-align: middle;
+    /* reset the text-align */
+    text-align:middle;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#jumbotron {
+	align: middle;
+	vertical-align: central;
+	text-align: center;
+	background-color: none;
+	margin-bottom: 50px;
+	border-top: solid 4px rgb(86, 202, 239);
+	border-bottom: solid 4px rgb(86, 202, 239);
+}
+
+#ask {
+	font-size: 50px;
+	color: white;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 5px gray;
+}
+
+#askbtn {
+	height: 50px;
+	width: 100px;
+	margin-bottom: 25px;
+	background-color: rgb(151, 192, 60);
+	color: white;
+	box-shadow: 2px 2px 5px gray;
+}
+
+#sub {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+/*Products Page*/
+
+#ProductDescrip {
+	background-color: white;
+	border: solid 4px rgb(86, 202, 239);
+	border-radius: 15px;
+	margin-top: 45px;
+	margin-bottom: 20px;
+	width: 90%;
+}
+
+.gifs {
+	width: 30px;
+	height: 30px;
+}
+
+#purify {
+	margin: 20px;
+}
+
+#paragraph {
+	margin: 20px;
+}
+
+#products1 {
+	border-top: solid 4px rgb(86, 202, 239);
+	border-bottom: solid 4px rgb(86, 202, 239);
+	margin-bottom: 30px;
+	margin-top: 30px;
+	background-color: white;
+}
+
+#products2 {
+	border-top: solid 4px rgb(86, 202, 239);
+	border-bottom: solid 4px rgb(86, 202, 239);
+	margin-top: 50px;
+	margin-bottom: 15px;
+	background-color: white;
+}
+
+#pict {
+	margin: 15px 0px;
+}
+
+#picts {
+	margin: 15px 0px;
+}
+
+#Pfooter {
+	font-size: 10px;
+	padding: 5px;
+}
+
+
+/*About Page*/
+#description {
+    background-color: white;
+    width: 90%;
+    border: solid 4px rgb(86, 202, 239);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+#iceglass {
+    margin: 15px;
+    margin-top: 50px;
+    align: center;
+    align: middle;
+    display:inline-block;
+}
+
+#text {
+	text-align: left;
+	padding: 10px 20px 20px 20px;
+}
+
+/*Contact Us page*/
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+    border-top: solid 4px rgb(86, 202, 239);
+    border-bottom: solid 4px rgb(86, 202, 239);
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*Navbar Resize*/
+
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
